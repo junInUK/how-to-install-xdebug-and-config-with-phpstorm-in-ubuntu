@@ -97,6 +97,18 @@ Go back to Settings page, choose "Laguages & Frameworks -> PHP -> Debug
 
 make sure the Xdebug Debug port is the same with the xdebug config.
 
+Click the "Pre-configuration" 
+
+1. "Validate" link 
+
+You will see this image
+
+![Validate Debugger Configuration on Web Server](images/php_storm5.png)
+*Validate Debugger Configuration on Web Server*
+
+Make sure the path is where your script in ubuntu and url is the path to visit your project. 
+
+
 
 
 
