@@ -117,33 +117,13 @@ After you install the xdebug extension, don't forget to change the IDE key to Ph
 ![xdebug chrome config](images/xdebug_chrome_config.png)
 *xdebug chrome config*
 
+Now, your configration are all set up. You can start remote debug!
 
+### Step5: Debug!
 
+Open your phpstorm, make sure the "Telephone icon" are "listening for PHP Debug Connections". Set a breakpoint. Open your web page. The app should stop on the break point. F7 for step into, F8 for step over. 
 
-2. 验证配置
-information栏目全部展示为绿色的勾则表示phpstorm配置成功
+If you wish to stop debug, click that telephone icon. Otherwise, your web server are in the debug model.
 
-
-
-安装浏览器xdebug扩展
-如果可以翻墙直接去谷歌扩展商店下载安装
-
-
-如果无法翻墙点击跳转到这个页面 点我 ，然后打开chrome插件目录页将下载的crx文件托进浏览器即可。然后你会发现浏览器菜单栏会出现一个灰色小虫子，鼠标右击它，选择xdebug helper，将ide key变为phpstorm，其实这个在上面xdebug.ini配置中有解释，所以上面那个配置不用填
-
-然后鼠标左击灰色的虫子，将选项由disable变为debug，然后虫子就变为了绿色，这就代表它已经开始工作了，不过你不需要总是打开它，在你调试的域名下将其开启即可。
-
-在phpstorm针对你的项目进行配置
-点击phpstorm菜单栏的RUN
-
-
-
-
-在你想打断点的地方点击一下左边的行号一栏，然后将菜单栏的电话由变为两头都是绿色，然后在浏览器中运行你想调试的页面
-
-
-返回phpstorm点击F9跳到你打断点的地方，F9为跳到下一个断点，F7为下一步，将鼠标移动到下面的选项上即可看到相应的快捷键
-
-
-调试得到你想要的结果了点击停止即可结束，记得关闭电话，不然会处于调试状态。当你需要再次调试再去打开它。
+That's the end of this article. Enjoy your debugging!
 
