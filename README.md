@@ -85,7 +85,7 @@ Click that + button on the left top and choose /usr/bin/php and then click OK bu
 
 Now, go back to "Settings" window, make sure you are in the page of "Languages & Frameworks -> PHP -> Servers 
 
-Click + button, in the name input box, you can type in the host name or ip. Host is the web server name or ip, port is the web server port. For apache web server, it is 80. Debugger is Xdebug. 
+Click + button, in the host input box, you can type in the host name or ip. Host is the web server name or ip, port is the web server port. For apache web server, it is 80. Debugger is Xdebug. 
 
 ![Settings server](images/php_storm3.png)
 *Settings server*
