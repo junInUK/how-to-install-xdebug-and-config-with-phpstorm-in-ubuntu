@@ -123,6 +123,9 @@ Now, your configration are all set up. You can start remote debug!
 
 Open your phpstorm, make sure the "Telephone icon" are "listening for PHP Debug Connections". Set a breakpoint. Open your web page. The app should stop on the break point. F7 for step into, F8 for step over. 
 
+![PHPSTORM Debug picture](images/php_storm_debug.png)
+*PHPSTORM Debug picture*
+
 If you wish to stop debug, click that telephone icon. Otherwise, your web server are in the debug model.
 
 That's the end of this article. Enjoy your debugging!
