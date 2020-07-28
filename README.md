@@ -71,16 +71,22 @@ After that, I can check the phpinfo() page. And see, every config info is right.
 
 Choose your php version 
 ![Choose your php version](images/php_storm1.png)
-
 *Choose your php version*
 
+Chick the three dot button on the line of CLI Interpreter
 
+You will see this pop up window 
+![CLI Interpreters](images/php_storm2.png)
+*CLI Interpreters*
 
-name随便填，自己认得就行，host及端口需要与xdebug.ini中配置的相同，debuger选择xdebug
+Click that + button on the left top and choose /usr/bin/php and then click OK button to close that window.
 
+Now, go back to "Settings" window, make sure you are in the page of "Languages & Frameworks -> PHP -> Servers 
 
-debug端口也需要与xdebug.ini中配置的相同
+Click + button, in the name input box, you can type in the host name or ip. Host is the web server name or ip, port is the web server port. For apache web server, it is 80. Debugger is Xdebug. 
 
+![Settings server](images/php_storm3.png)
+*Settings server*
 
 2. 验证配置
 information栏目全部展示为绿色的勾则表示phpstorm配置成功
