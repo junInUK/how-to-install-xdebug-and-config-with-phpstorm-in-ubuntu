@@ -108,6 +108,14 @@ You will see this image
 
 Make sure the path is where your script in ubuntu and url is the path to visit your project. 
 
+If you can see all the gree tick, means your phpstorm config successfully. 
+
+### Step4: Install chrome xdebug extension and config 
+
+After you install the xdebug extension, don't forget to change the IDE key to PhpStorm. 
+
+![xdebug chrome config](images/xdebug_chrome_config.png)
+*xdebug chrome config*
 
 
 
